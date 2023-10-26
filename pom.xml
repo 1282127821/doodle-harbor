@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+     https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.doodle</groupId>
+    <artifactId>doodle-harbor-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <relativePath>doodle-harbor-parent/pom.xml</relativePath>
+  </parent>
+  <artifactId>doodle-harbor</artifactId>
+  <packaging>pom</packaging>
+  <properties>
+    <maven.deploy.skip>true</maven.deploy.skip>
+  </properties>
+  <modules>
+    <module>doodle-harbor-autoconfigure</module>
+    <module>doodle-harbor-client-core</module>
+    <module>doodle-harbor-dependencies</module>
+    <module>doodle-harbor-parent</module>
+    <module>doodle-harbor-server</module>
+    <module>doodle-harbor-server-core</module>
+    <module>doodle-harbor-starters</module>
+    <module>doodle-harbor-vaadin</module>
+    <module>doodle-harbor-vaadin-core</module>
+  </modules>
+</project>

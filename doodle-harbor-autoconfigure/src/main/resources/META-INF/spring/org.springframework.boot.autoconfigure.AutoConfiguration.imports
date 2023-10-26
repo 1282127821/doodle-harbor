@@ -1,0 +1,3 @@
+org.doodle.harbor.autoconfigure.client.HarborClientAutoConfiguration
+org.doodle.harbor.autoconfigure.server.HarborServerAutoConfiguration
+org.doodle.harbor.autoconfigure.vaadin.HarborVaadinAutoConfiguration
